@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f8f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+
+header {
+    background-color: #1b5e20;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Menu */
+
+nav {
+    background-color: #2e7d32;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Conteúdo principal */
+
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.introducao {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.introducao h2 {
+    color: #1b5e20;
+    margin-bottom: 15px;
+}
+
+.introducao p {
+    margin-bottom: 10px;
+}
+
+/* Tecnologias */
+
+.tecnologias {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Cards */
+
+.card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+.card h2 {
+    color: #2e7d32;
+    margin-bottom: 10px;
+}
+
+.icone {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+/* Rodapé */
+
+footer {
+    background-color: #1b5e20;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
